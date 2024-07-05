@@ -1,13 +1,13 @@
 {
-    "serial_rx": 15,
-    "serial_tx": 15,
+    "serial_rx": 22,
+    "serial_tx": 22,
     "radio_dio0": 26,
     "radio_dio1": 27,
-    "radio_miso": 32,
-    "radio_mosi": 35,
-    "radio_nss": 25,
-    "radio_rst": 34,
-    "radio_sck": 33,
+    "radio_miso": 33,
+    "radio_mosi": 32,
+    "radio_nss": 34,
+    "radio_rst": 25,
+    "radio_sck": 35,
     "power_rxen": 12,
     "power_txen": 14,
 
@@ -21,20 +21,21 @@
     "led_rgb": 13,
     "led_rgb_isgrb": true,
 
-    "screen_cs": 18,
-    "screen_dc": 5,
-    "screen_mosi": 17,
+    "screen_cs": 4,
+    "screen_dc": 17,
+    "screen_mosi": 18,
     "screen_rst": 16,
-    "screen_sck": 4,
+    "screen_sck": 5,
     "screen_type": 7,
+    "screen_reversed": true,
 
-    "joystick":21,
-    "joystick_values":[5, 4, 3, 2, 1, 0],
+    "button":19,
+    "button2":21,
 
     "misc_fan_en": 23,
 
     "gsensor_stk8xxx": true,
-    "misc_gsensor_int": 22,
+    "misc_gsensor_int": 15,
 
     "thermal_lm75a": true,
 
