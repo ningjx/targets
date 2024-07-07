@@ -5,20 +5,20 @@
     "radio_dio1": 27,
     "radio_miso": 33,
     "radio_mosi": 32,
-    "radio_nss": 34,
+    "radio_nss": 19,
     "radio_rst": 25,
-    "radio_sck": 35,
+    "radio_sck": 13,
     "power_rxen": 12,
     "power_txen": 14,
 
     "power_min": 0,
     "power_high": 6,
-    "power_max": 7,
+    "power_max": 6,
     "power_default": 3,
-    "power_control": 3,
-    "power_values": [57,67,76,90,112,132,167,201],
+    "power_control": 0,
+    "power_values": [2,5,8,12,15,20,30],
 
-    "led_rgb": 13,
+    "led_rgb": 21,
     "led_rgb_isgrb": true,
 
     "screen_cs": 4,
@@ -29,18 +29,18 @@
     "screen_type": 7,
     "screen_reversed": true,
 
-    "button":19,
-    "button2":21,
+    "button":36,
+    "button2":39,
 
     "misc_fan_en": 23,
 
     "gsensor_stk8xxx": true,
-    "misc_gsensor_int": 15,
+    "misc_gsensor_int": 34,
 
     "thermal_lm75a": true,
 
-    "i2c_scl": 36,
-    "i2c_sda": 39,
+    "i2c_scl": 15,
+    "i2c_sda": 2,
 
     "use_backpack": true,
     "debug_backpack_baud": 460800,
